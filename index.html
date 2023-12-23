@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2023년 서울과학기술대학교 시각디자인전공 과제전</title>
+	<meta name="description" content="서울과학기술대학교 2023년 시각디자인전공 과제전">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+	<meta name=" theme-color" content="#003e7e">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://vd.seoultech.ac.kr">
+	<meta property="og:image" content="thumbnail.jpg">
+	<meta property="og:title" content="2023년 서울과기대 VD 과제전">
+	<meta property="og:description" content="서울과학기술대학교 2023년 디자인학과 시각디자인전공 과제전">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{font-family: 'Noto Sans KR', sans-serif; word-break: keep-all; box-sizing: border-box;}
+		body,div,p,ul,li,h1,h2{margin:0; padding:0;}
+		body{background: url(back.jpg); background-size: cover; background-attachment: fixed}
+		a{text-decoration: none; color:black; display: block;}
+		h1{width: 1000px; margin:0em auto 0em; padding:6rem 0.5rem 0.6rem;}
+		h2{font-size: 1.2em;padding:0.2em 0.5em 0.6em;}
+		section{width:1000px; margin:2em auto 4em; display: flex;}
+		footer{width: 1000px; margin:2em auto 0em; display: flex;}
+		.col{width:33.3%;}
+		.class{font-size: 1.2em;padding:0.2em 0.5em 2em; cursor: pointer;}
+		.mgrade{display: none;}
+		.intext{background: black; color:white;}
+		.mheader{display: none;}
+
+		@media all
+  		and (max-width: 600px){
+  			section .col{width: 100%; column-count: 2;}
+  			footer .col{width: 100%;}
+  			h2,.class{font-size: 1.2rem;}
+  			.class{font-size: 1.2em;padding:0.2em 0.5em 1em;
+			cursor: pointer;}
+  			h1{width:100%; font-size: 2em;padding:1rem 0.5rem 0.6rem;line-height: 1.2;letter-spacing: -1px;}
+  			section{width:100%;margin-top: 1em;display: block}
+  			footer{width:100%;margin-top: 1em;column-count: 2; display: block}
+  			.grade{display: none;}
+  			.mgrade{display: block; margin-top: 1rem;}
+  			.mheader{display: block;}
+  			.dheader{display: none;}
+  		}	
+  		
+  		@media (hover: hover) {
+  			.class:hover{background: none; color:black; backdrop-filter: invert(100%);}
+  		}
+	</style>
+</head>
+<body>
+	<h1 class="dheader">2023 시각디자인전공 과제전</h1>
+	<h1 class="mheader">2023<br>시각디자인전공<br>과제전</h1>
+	<section id="contents">
+		<h2 class="mgrade">1학년</h2>
+		<div id="firstcon" class="col"></div>
+		<h2 class="mgrade">2학년</h2>
+		<div id="secondcon" class="col"></div>
+		<h2 class="mgrade">3학년</h2>
+		<div id="thirdcon" class="col"></div>
+	</section>
+	<footer>
+		<div class="col">
+		</div>
+		<div class="col">
+			<a href="https://vd.seoultech.ac.kr" target="blank">
+				<h2 class='class'><span class="intext">서울과학기술대학교<br>시각디자인전공<br>2023 과제전</span></h2>
+			</a>
+		</div>
+		<div class="col">
+			<a href="https://vd.seoultech.ac.kr" target="blank">
+				<!--<h2 class='class'><span class="intext">그림 18부덕현<br>vd.seoultech.ac.kr<br>&copy;2022</span></h2>-->
+			</a>
+		</div>
+		
+	</footer>
+<script type="text/javascript">
+let first = [
+	["디지털이미지디자인<br>이병학","https://youtu.be/4-_cSd0gJTM?si=srVeOcoliTq0Cb_K"],
+	["발상표현<br>안중경","https://www.instagram.com/balsang2023"]
+];
+first.sort(function(a, b){return 0.5 - Math.random()});
+
+let second = [
+	["UX디자인<br>유은","https://www.behance.net/snad2020uxd"],
+	["UX디자인<br>안미경","https://www.behance.net/estherahn2"],
+	["모션그래픽스<br>편정민","https://www.youtube.com/watch?v=z5xadxoFr5A&list=PLg9_1cPCEmpUasEASeOxXohGFFvgL9iHX"],
+	["3D미디어디자인<br>김지연","https://www.youtube.com/playlist?list=PLZmDCv9OO3K56taqmXx8ruW99QgUhhB_B"]
+];
+second.sort(function(a, b){return 0.5 - Math.random()});
+
+let third = [
+	["아이덴티티디자인<br>임선아","https://www.behance.net/seoultech_identity/"],
+	["일러스트레이션스튜디오<br>노준구","https://www.instagram.com/seoultech.illustration/"],
+	["웹인터랙션디자인<br>이병학","https://leebh.net/ex/webinter-2023/"],
+	["디지털영상표현<br>백주미","https://youtube.com/playlist?list=PLnz7vNbhKdlvqESwTYZDkoUPHdK5YHYdN&si=n0-Wxdb6iGQfmJU9"],
+	["서비스디자인<br>권교영","https://www.behance.net/collection/208926281/2023-seoultech-vd"],
+	["서비스디자인<br>정명진"," https://www.behance.net/audqkfdl"]
+];
+third.sort(function(a, b){return 0.5 - Math.random()});
+
+
+let grade1 = document.createElement("h2");
+grade1.className = "grade";
+grade1.innerHTML = "1학년";
+firstcon.appendChild(grade1);
+
+for(let i=0; i<first.length; i++){
+	let tt = document.createElement("a");
+	tt.href = first[i][1]; tt.target = "_blank";
+	let t = document.createElement("h2");
+	t.className = "class";
+	t.innerHTML = "<span class='intext'>" + first[i][0] + "</span>";
+	tt.appendChild(t);
+	firstcon.appendChild(tt);
+}
+
+putEmpty("firstcon");
+
+let grade2 = document.createElement("h2");
+grade2.className = "grade";
+grade2.innerHTML = "2학년";
+secondcon.appendChild(grade2);
+
+for(let i=0; i<second.length; i++){
+	let tt = document.createElement("a");
+	tt.href = second[i][1]; tt.target = "_blank";
+	let t = document.createElement("h2");
+	t.className = "class";
+	t.innerHTML = "<span class='intext'>" + second[i][0] + "</span>";
+	tt.appendChild(t);
+	secondcon.appendChild(tt);
+}
+
+let grade3 = document.createElement("h2");
+grade3.className = "grade";
+grade3.innerHTML = "3학년";
+thirdcon.appendChild(grade3);
+
+for(let i=0; i<third.length; i++){
+	let ss = document.createElement("a");
+	ss.href = third[i][1]; ss.target = "_blank";
+	let s = document.createElement("h2");
+	s.className = "class";
+	s.innerHTML = "<span class='intext'>" + third[i][0] + "</span>";;
+	ss.appendChild(s);
+	thirdcon.appendChild(ss);
+}
+
+function removeClass(element, className) { 
+	let check = new RegExp("(\\s|^)" + className + "(\\s|$)"); 
+	element.className = element.className.replace(check, " ").trim(); 
+};
+	
+function putEmpty(ta){
+	let a = document.createElement("h2");
+	a.innerHTML = "&nbsp;<br>&nbsp;";
+	let b = document.getElementById(ta);
+	b.appendChild(a);
+} 
+</script>
+</body>
+</html>
